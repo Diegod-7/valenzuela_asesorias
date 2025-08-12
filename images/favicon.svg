@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Fondo circular -->
+  <circle cx="16" cy="16" r="15" fill="#007bff" stroke="#0056b3" stroke-width="1"/>
+  
+  <!-- Cubiertos estilizados (representando gastronomía) -->
+  <g fill="white" stroke="white" stroke-width="0.5">
+    <!-- Tenedor -->
+    <rect x="12" y="8" width="1" height="12" rx="0.5"/>
+    <rect x="11" y="8" width="3" height="1" rx="0.5"/>
+    <rect x="11.5" y="9" width="2" height="1" rx="0.5"/>
+    <rect x="11.5" y="10" width="2" height="1" rx="0.5"/>
+    
+    <!-- Cuchillo -->
+    <rect x="19" y="8" width="1" height="12" rx="0.5"/>
+    <path d="M 19 8 L 22 8 L 21.5 9 L 19 9 Z"/>
+    
+    <!-- Plato central -->
+    <circle cx="16" cy="18" r="4" fill="none" stroke="white" stroke-width="1"/>
+    <circle cx="16" cy="18" r="2" fill="white"/>
+  </g>
+  
+  <!-- Letra V estilizada (Valenzuela) -->
+  <path d="M 14 22 L 16 26 L 18 22" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

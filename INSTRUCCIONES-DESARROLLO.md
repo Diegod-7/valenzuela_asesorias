@@ -10,6 +10,7 @@ El sitio web ha sido completamente transformado de "Foodee" a "Valenzuela Asesor
 - **Formulario de contacto integrado con Formspree** para envío automático de emails
 - **Iconos corregidos y funcionales** en todas las secciones
 - **Modales interactivos para casos de éxito** con navegación entre casos
+- **Favicon personalizado** para la pestaña del navegador
 
 ## CAMBIOS PRINCIPALES REALIZADOS
 
@@ -41,6 +42,8 @@ El sitio web ha sido completamente transformado de "Foodee" a "Valenzuela Asesor
 - `IMAGENES-GRATUITAS.md` - Guía de imágenes recomendadas
 - `images/IMAGENES-NECESARIAS.md` - Especificaciones de imágenes por sección
 - `MODALES-CASOS-EXITO.md` - Documentación de modales implementados
+- `images/favicon.svg` - Diseño del favicon en formato vectorial
+- `images/FAVICON-INSTRUCCIONES.md` - Instrucciones para generar favicons
 
 ## PRÓXIMOS PASOS RECOMENDADOS
 
