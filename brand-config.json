@@ -1,0 +1,254 @@
+{
+  "brand": {
+    "name": "Valenzuela Asesorías",
+    "tagline": "Sabor que inspira, estrategia que transforma.",
+    "description": "Consultoría integral para emprendimientos gastronómicos, restaurantes y hoteles. Profesionalización, propuesta culinaria y escalabilidad comercial.",
+    "mission": "Transformar negocios gastronómicos a través de asesorías integrales que combinen la pasión por la cocina con estrategias empresariales probadas, generando valor tangible y resultados medibles para nuestros clientes.",
+    "vision": "Ser la consultoría gastronómica líder en Latinoamérica, reconocida por la excelencia en el servicio y la capacidad de generar transformaciones sostenibles en la industria alimentaria."
+  },
+  "values": [
+    {
+      "name": "Excelencia Culinaria",
+      "description": "Respeto por la técnica, la tradición y la innovación gastronómica. Cada plato debe reflejar la pasión y el profesionalismo.",
+      "icon": "icon-star"
+    },
+    {
+      "name": "Visión Estratégica",
+      "description": "Pensamiento empresarial que permite crecer, escalar y diferenciarse en un mercado cada vez más competitivo.",
+      "icon": "icon-target"
+    },
+    {
+      "name": "Personalización",
+      "description": "Cada cliente recibe una asesoría hecha a medida según sus necesidades específicas y su contexto de mercado.",
+      "icon": "icon-users"
+    },
+    {
+      "name": "Sostenibilidad",
+      "description": "Promoción de modelos responsables que cuiden recursos, equipos y comunidades, asegurando el éxito a largo plazo.",
+      "icon": "icon-leaf"
+    },
+    {
+      "name": "Confianza Profesional",
+      "description": "Tu apellido y trayectoria reflejan seriedad, compromiso y resultados comprobados en la industria gastronómica.",
+      "icon": "icon-shield"
+    },
+    {
+      "name": "Compromiso Total",
+      "description": "Nuestro éxito está directamente ligado al tuyo. Trabajamos contigo hasta alcanzar los objetivos establecidos.",
+      "icon": "icon-heart"
+    }
+  ],
+  "services": [
+    {
+      "area": "Gastronomía",
+      "description": "Desarrollo de cartas, estandarización de procesos y recetas, capacitación técnica del personal de cocina y control de calidad.",
+      "services": [
+        "Desarrollo de cartas",
+        "Estandarización de procesos y recetas",
+        "Capacitación técnica",
+        "Control de calidad"
+      ],
+      "image": "res_img_1.jpg"
+    },
+    {
+      "area": "Gestión Comercial",
+      "description": "Desarrollo de estrategias de ventas, implementación de CRM, optimización de precios y análisis de rentabilidad por producto.",
+      "services": [
+        "Estrategia de ventas",
+        "Implementación de CRM",
+        "Optimización de precios",
+        "Análisis de rentabilidad"
+      ],
+      "image": "res_img_2.jpg"
+    },
+    {
+      "area": "Innovación",
+      "description": "Implementación de metodologías como Design Thinking y Kanban en cocina, optimización de flujos de trabajo y procesos ágiles.",
+      "services": [
+        "Design Thinking en cocina",
+        "Implementación de Kanban",
+        "Optimización de flujos",
+        "Procesos ágiles"
+      ],
+      "image": "res_img_8.jpg"
+    },
+    {
+      "area": "Marca Gastronómica",
+      "description": "Desarrollo de branding culinario, posicionamiento de marca, comunicación visual y estrategias de marketing gastronómico.",
+      "services": [
+        "Branding culinario",
+        "Posicionamiento de marca",
+        "Comunicación visual",
+        "Marketing gastronómico"
+      ],
+      "image": "res_img_7.jpg"
+    },
+    {
+      "area": "Operaciones",
+      "description": "Optimización de flujos operativos con principios Agile, evaluación y desarrollo de equipos, y mejora de procesos internos.",
+      "services": [
+        "Principios Agile",
+        "Evaluación de equipos",
+        "Desarrollo de equipos",
+        "Mejora de procesos"
+      ],
+      "image": "res_img_6.jpg"
+    },
+    {
+      "area": "Capacitación",
+      "description": "Programas de entrenamiento especializados para equipos gastronómicos, desarrollo de liderazgo y transferencia de conocimiento.",
+      "services": [
+        "Entrenamiento especializado",
+        "Desarrollo de liderazgo",
+        "Transferencia de conocimiento",
+        "Capacitación continua"
+      ],
+      "image": "res_img_3.jpg"
+    }
+  ],
+  "targetAudience": [
+    {
+      "type": "Restaurantes",
+      "description": "Asesoramiento integral para restaurantes independientes y cadenas gastronómicas en expansión, desde conceptos casuales hasta alta cocina.",
+      "icon": "icon-1"
+    },
+    {
+      "type": "Hoteles",
+      "description": "Optimización de servicios gastronómicos en hoteles y servicios de alimentación institucional, incluyendo restaurantes y eventos especiales.",
+      "icon": "icon-2"
+    },
+    {
+      "type": "Emprendedores",
+      "description": "Apoyo a emprendedores culinarios que desean profesionalizar su negocio, desde la conceptualización hasta la implementación.",
+      "icon": "icon-3"
+    },
+    {
+      "type": "Instituciones",
+      "description": "Asesoramiento para escuelas culinarias que buscan actualizar sus modelos académicos y metodologías de enseñanza.",
+      "icon": "icon-4"
+    }
+  ],
+  "methodology": {
+    "phases": [
+      {
+        "step": "Paso 1",
+        "name": "Análisis Inicial",
+        "description": "Evaluación completa de operaciones, finanzas, personal y posicionamiento de mercado.",
+        "image": "res_img_2.jpg"
+      },
+      {
+        "step": "Paso 2",
+        "name": "Identificación de Oportunidades",
+        "description": "Detección de áreas de mejora y potencial de crecimiento en el negocio.",
+        "image": "res_img_8.jpg"
+      },
+      {
+        "step": "Paso 3",
+        "name": "Plan Estratégico",
+        "description": "Desarrollo de roadmap personalizado con objetivos claros y métricas de seguimiento.",
+        "image": "res_img_7.jpg"
+      },
+      {
+        "step": "Paso 4",
+        "name": "Implementación",
+        "description": "Ejecución gradual de mejoras con acompañamiento continuo y ajustes según resultados.",
+        "image": "res_img_6.jpg"
+      }
+    ],
+    "expectedResults": [
+      {
+        "metric": "+40%",
+        "name": "Aumento de Rentabilidad",
+        "description": "Mejora promedio del 40% en márgenes operativos durante los primeros 6 meses."
+      },
+      {
+        "metric": "+35%",
+        "name": "Eficiencia Operativa",
+        "description": "Optimización de procesos que reduce costos operativos y mejora la productividad del equipo."
+      },
+      {
+        "metric": "+50%",
+        "name": "Satisfacción del Cliente",
+        "description": "Mejora en la experiencia gastronómica que se refleja en mayor fidelización y recomendaciones."
+      },
+      {
+        "metric": "+25%",
+        "name": "Crecimiento Sostenible",
+        "description": "Base sólida para la expansión del negocio y la apertura de nuevas ubicaciones."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "client": "Restaurante La Esquina",
+      "date": "Marzo 2024",
+      "testimonial": "Valenzuela Asesorías transformó completamente nuestro menú y operaciones. En 3 meses aumentamos nuestra rentabilidad en un 40% y mejoramos significativamente la satisfacción de nuestros clientes.",
+      "image": "res_img_1.jpg"
+    },
+    {
+      "client": "Hotel Plaza Central",
+      "date": "Enero 2024",
+      "testimonial": "La consultoría nos ayudó a optimizar nuestros servicios gastronómicos. Su experiencia en gestión hotelera fue invaluable para mejorar nuestros estándares de calidad y rentabilidad.",
+      "image": "res_img_2.jpg"
+    },
+    {
+      "client": "Catering Gourmet Express",
+      "date": "Noviembre 2023",
+      "testimonial": "Gracias a Valenzuela Asesorías, logramos estructurar mejor nuestros procesos y expandir nuestro negocio. Su asesoramiento estratégico fue fundamental para nuestro crecimiento.",
+      "image": "res_img_3.jpg"
+    }
+  ],
+  "contact": {
+    "company": "Valenzuela Asesorías",
+    "description": "Consultoría Gastronómica Integral",
+    "location": "Servicios en toda Latinoamérica",
+    "phone": "+1 (555) 123-4567",
+    "email": "contacto@valenzuelaasesorias.com",
+    "website": "valenzuelaasesorias.com",
+    "socialMedia": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    }
+  },
+  "stats": [
+    {
+      "number": "15+",
+      "label": "Años de Experiencia"
+    },
+    {
+      "number": "200+",
+      "label": "Proyectos Exitosos"
+    },
+    {
+      "number": "40%",
+      "label": "Aumento Promedio en Rentabilidad"
+    },
+    {
+      "number": "98%",
+      "label": "Clientes Satisfechos"
+    }
+  ],
+  "quotes": [
+    "Sabor que inspira, estrategia que transforma. Cada plato cuenta una historia, cada estrategia construye un futuro",
+    "La excelencia culinaria no es solo una cuestión de sabor, sino de estrategia, eficiencia y pasión por el detalle",
+    "Un menú bien diseñado es la base de un restaurante exitoso. Cada plato debe contar una historia y generar rentabilidad",
+    "La consultoría gastronómica es el puente entre la pasión culinaria y el éxito empresarial"
+  ],
+  "seo": {
+    "keywords": [
+      "Valenzuela Asesorías",
+      "consultoría gastronómica",
+      "asesorías restaurantes",
+      "hoteles gastronomía",
+      "emprendimientos culinarios",
+      "estrategia gastronómica",
+      "optimización restaurantes",
+      "gestión gastronómica",
+      "branding culinario",
+      "capacitación gastronómica"
+    ],
+    "metaDescription": "Valenzuela Asesorías: Consultoría integral para emprendimientos gastronómicos, restaurantes y hoteles. Profesionalización, propuesta culinaria y escalabilidad comercial."
+  }
+}

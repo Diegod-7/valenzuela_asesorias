@@ -1,0 +1,557 @@
+/* ===================================
+   VALENZUELA ASESORÍAS - IDENTIDAD VISUAL
+   =================================== */
+
+/* Importar fuentes elegantes */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* ===================================
+   PALETA DE COLORES CORPORATIVA
+   =================================== */
+:root {
+    /* Colores principales */
+    --valenzuela-navy: #1a365d;      /* Azul marino - confianza */
+    --valenzuela-gold: #d4af37;      /* Dorado tenue - excelencia */
+    --valenzuela-white: #ffffff;     /* Blanco - claridad */
+    
+    /* Colores secundarios */
+    --valenzuela-navy-light: #2d5a87;
+    --valenzuela-navy-dark: #0f1f2e;
+    --valenzuela-gold-light: #e6c866;
+    --valenzuela-gold-dark: #b8941f;
+    
+    /* Colores de acento */
+    --valenzuela-accent: #f7fafc;
+    --valenzuela-text: #2d3748;
+    --valenzuela-text-light: #718096;
+    --valenzuela-border: #e2e8f0;
+}
+
+/* ===================================
+   TIPOGRAFÍA CORPORATIVA
+   =================================== */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--valenzuela-text);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 600;
+    color: var(--valenzuela-navy);
+    line-height: 1.3;
+}
+
+.heading {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    color: var(--valenzuela-navy);
+}
+
+.sub-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: var(--valenzuela-text-light);
+}
+
+/* ===================================
+   ELEMENTOS DE MARCA
+   =================================== */
+
+/* Logo personalizado */
+.fh5co-logo a {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--valenzuela-navy);
+    text-decoration: none;
+    position: relative;
+}
+
+.fh5co-logo a::before {
+    content: "🥄";
+    font-size: 1.2rem;
+    margin-right: 8px;
+    display: inline-block;
+    transform: rotate(-15deg);
+}
+
+/* Botones con identidad de marca */
+.btn-primary {
+    background-color: var(--valenzuela-navy);
+    border-color: var(--valenzuela-navy);
+    color: var(--valenzuela-white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--valenzuela-navy-dark);
+    border-color: var(--valenzuela-navy-dark);
+    color: var(--valenzuela-white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
+}
+
+.btn-primary.btn-outline {
+    background-color: transparent;
+    color: var(--valenzuela-navy);
+    border: 2px solid var(--valenzuela-navy);
+}
+
+.btn-primary.btn-outline:hover,
+.btn-primary.btn-outline:focus {
+    background-color: var(--valenzuela-navy);
+    color: var(--valenzuela-white);
+}
+
+/* Botones dorados para CTA especiales */
+.btn-gold {
+    background-color: var(--valenzuela-gold);
+    border-color: var(--valenzuela-gold);
+    color: var(--valenzuela-white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover,
+.btn-gold:focus {
+    background-color: var(--valenzuela-gold-dark);
+    border-color: var(--valenzuela-gold-dark);
+    color: var(--valenzuela-white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+/* ===================================
+   HERO SECTION PERSONALIZADO
+   =================================== */
+.fh5co-text h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--valenzuela-navy);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.fh5co-text h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--valenzuela-navy);
+    margin-bottom: 1.5rem;
+}
+
+.fh5co-text h2 span {
+    color: var(--valenzuela-gold);
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--valenzuela-text);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Estadísticas del hero */
+.hero-stats {
+    margin-top: 3rem;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 1rem;
+}
+
+.stat-number {
+    display: block;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--valenzuela-gold);
+    line-height: 1;
+}
+
+.stat-label {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--valenzuela-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0.5rem;
+}
+
+/* ===================================
+   NAVEGACIÓN PERSONALIZADA
+   =================================== */
+.fh5co-main-nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--valenzuela-border);
+}
+
+.fh5co-menu-1 a,
+.fh5co-menu-2 a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: var(--valenzuela-navy);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.fh5co-menu-1 a:hover,
+.fh5co-menu-2 a:hover {
+    color: var(--valenzuela-gold);
+}
+
+.fh5co-menu-1 a::after,
+.fh5co-menu-2 a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: var(--valenzuela-gold);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.fh5co-menu-1 a:hover::after,
+.fh5co-menu-2 a:hover::after {
+    width: 80%;
+}
+
+/* ===================================
+   SECCIONES PERSONALIZADAS
+   =================================== */
+
+/* Títulos de sección */
+.heading {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--valenzuela-navy);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--valenzuela-navy), var(--valenzuela-gold));
+    border-radius: 2px;
+}
+
+.sub-heading {
+    font-size: 1.2rem;
+    color: var(--valenzuela-text-light);
+    margin-bottom: 3rem;
+}
+
+/* Tarjetas de valores */
+.highlight-item {
+    background: var(--valenzuela-white);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border: 1px solid var(--valenzuela-border);
+}
+
+.highlight-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(26, 54, 93, 0.15);
+    border-color: var(--valenzuela-gold-light);
+}
+
+.highlight-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    background: linear-gradient(135deg, var(--valenzuela-navy), var(--valenzuela-navy-light));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--valenzuela-white);
+    font-size: 2rem;
+}
+
+.highlight-item h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--valenzuela-navy);
+    margin-bottom: 1rem;
+}
+
+.highlight-item p {
+    color: var(--valenzuela-text-light);
+    line-height: 1.6;
+}
+
+/* ===================================
+   SERVICIOS PERSONALIZADOS
+   =================================== */
+.fh5co-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--valenzuela-navy);
+    margin-bottom: 0.5rem;
+}
+
+.pricing {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--valenzuela-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* ===================================
+   TIPOS DE CLIENTES
+   =================================== */
+.fh5co-type {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.fh5co-type:hover {
+    transform: translateY(-5px);
+    background: var(--valenzuela-white);
+    box-shadow: 0 8px 25px rgba(26, 54, 93, 0.15);
+}
+
+.fh5co-type h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--valenzuela-navy);
+    margin-bottom: 1rem;
+}
+
+.fh5co-type p {
+    color: var(--valenzuela-text-light);
+    line-height: 1.6;
+}
+
+/* ===================================
+   TESTIMONIOS/CASOS DE ÉXITO
+   =================================== */
+.fh5co-event {
+    background: var(--valenzuela-white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border: 1px solid var(--valenzuela-border);
+}
+
+.fh5event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(26, 54, 93, 0.15);
+    border-color: var(--valenzuela-gold-light);
+}
+
+.fh5co-event h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--valenzuela-navy);
+    margin-bottom: 0.5rem;
+}
+
+.fh5co-event-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: var(--valenzuela-gold);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* ===================================
+   FORMULARIO DE CONTACTO
+   =================================== */
+.form-control {
+    border: 2px solid var(--valenzuela-border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--valenzuela-gold);
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+    outline: none;
+}
+
+/* ===================================
+   FOOTER PERSONALIZADO
+   =================================== */
+#fh5co-footer {
+    background: var(--valenzuela-navy);
+    color: var(--valenzuela-white);
+}
+
+#fh5co-footer p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.fh5co-social a {
+    color: var(--valenzuela-gold);
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.fh5co-social a:hover {
+    color: var(--valenzuela-gold-light);
+    transform: translateY(-3px);
+}
+
+/* ===================================
+   ELEMENTOS ESPECIALES
+   =================================== */
+
+/* Línea decorativa dorada */
+.decorative-line {
+    height: 3px;
+    background: linear-gradient(90deg, var(--valenzuela-navy), var(--valenzuela-gold), var(--valenzuela-navy));
+    border-radius: 2px;
+    margin: 2rem auto;
+    width: 100px;
+}
+
+/* Badges de especialización */
+.specialty-tags .tag {
+    background: linear-gradient(135deg, var(--valenzuela-navy), var(--valenzuela-navy-light));
+    color: var(--valenzuela-white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0.25rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.specialty-tags .tag:hover {
+    background: linear-gradient(135deg, var(--valenzuela-gold), var(--valenzuela-gold-light));
+    transform: translateY(-2px);
+}
+
+/* ===================================
+   RESPONSIVE DESIGN
+   =================================== */
+@media (max-width: 768px) {
+    .fh5co-text h1 {
+        font-size: 2.5rem;
+    }
+    
+    .fh5co-text h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .heading {
+        font-size: 2.2rem;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+}
+
+/* ===================================
+   ANIMACIONES PERSONALIZADAS
+   =================================== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.to-animate {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.to-animate-2 {
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+/* ===================================
+   ESTILOS ADICIONALES PARA BRANDING
+   =================================== */
+
+/* Logo con espátula estilizada */
+.brand-logo {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.brand-logo::before {
+    content: "🥄";
+    font-size: 1.5rem;
+    margin-right: 10px;
+    display: inline-block;
+    transform: rotate(-15deg);
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1));
+}
+
+/* Elementos decorativos */
+.decorative-element {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, var(--valenzuela-gold), var(--valenzuela-gold-light));
+    border-radius: 50%;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.decorative-element.top-right {
+    top: -50px;
+    right: -50px;
+}
+
+.decorative-element.bottom-left {
+    bottom: -50px;
+    left: -50px;
+}

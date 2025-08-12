@@ -1690,3 +1690,249 @@ p {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* ===================================================
+   ESTILOS PERSONALIZADOS PARA VALENZUELA ASESORÍAS
+   =================================================== */
+
+/* Overlays para imágenes de servicios */
+.service-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.fh5co-bg-img:hover .service-overlay {
+    opacity: 1;
+}
+
+.service-icon {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+
+.service-icon i {
+    font-size: 32px;
+    color: #333;
+}
+
+.fh5co-bg-img:hover .service-icon {
+    transform: scale(1);
+}
+
+/* Overlays para metodología */
+.methodology-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+figure:hover .methodology-overlay {
+    opacity: 1;
+}
+
+.methodology-icon {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+
+.methodology-icon i {
+    font-size: 24px;
+    color: #333;
+}
+
+figure:hover .methodology-icon {
+    transform: scale(1);
+}
+
+/* Overlays para resultados */
+.results-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+figure:hover .results-overlay {
+    opacity: 1;
+}
+
+.results-icon {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+
+.results-icon i {
+    font-size: 24px;
+    color: #333;
+}
+
+figure:hover .results-icon {
+    transform: scale(1);
+}
+
+/* Botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: #25d366;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+.whatsapp-button:hover {
+    background: #128c7e;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-button i {
+    font-size: 32px;
+    color: white;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    }
+    70% {
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.6);
+    }
+    100% {
+        box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    }
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form .form-group {
+	margin-bottom: 20px;
+}
+
+.contact-form .btn-block {
+	width: 100%;
+	padding: 12px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+/* Mensajes del formulario */
+.form-messages {
+	margin-top: 20px;
+}
+
+.form-messages .alert {
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	font-weight: 500;
+}
+
+.form-messages .alert-success {
+	background-color: #d4edda;
+	color: #155724;
+	border-left: 4px solid #28a745;
+}
+
+.form-messages .alert-danger {
+	background-color: #f8d7da;
+	color: #721c24;
+	border-left: 4px solid #dc3545;
+}
+
+.form-messages .alert i {
+	margin-right: 8px;
+	font-weight: bold;
+}
+
+/* Animación para el botón de envío */
+.btn:disabled {
+	opacity: 0.7;
+	cursor: not-allowed;
+}
+
+/* Icono de carga */
+.fa-spin {
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.contact-form .btn i {
+    margin-right: 8px;
+}
+
+/* Responsive para el botón de WhatsApp */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .whatsapp-button {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .whatsapp-button i {
+        font-size: 28px;
+    }
+}

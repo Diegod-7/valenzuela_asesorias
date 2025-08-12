@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Fondo circular azul marino -->
+  <circle cx="16" cy="16" r="16" fill="#1a365d"/>
+  
+  <!-- Espátula estilizada en dorado -->
+  <g fill="#d4af37">
+    <!-- Mango de la espátula -->
+    <rect x="12" y="8" width="8" height="16" rx="2" ry="2"/>
+    
+    <!-- Cabeza de la espátula -->
+    <path d="M 8 20 L 24 20 L 22 24 L 10 24 Z"/>
+    
+    <!-- Detalle del mango -->
+    <rect x="13" y="10" width="6" height="12" rx="1" ry="1" fill="#ffffff" opacity="0.3"/>
+  </g>
+  
+  <!-- Elemento decorativo - punto dorado -->
+  <circle cx="16" cy="6" r="2" fill="#d4af37"/>
+</svg>
