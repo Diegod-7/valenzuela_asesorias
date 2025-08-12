@@ -1916,6 +1916,131 @@ figure:hover .results-icon {
 	100% { transform: rotate(360deg); }
 }
 
+/* Estilos para los modales de casos de éxito */
+.modal-lg {
+	max-width: 900px;
+}
+
+.modal-header {
+	background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+	border-bottom: 2px solid #007bff;
+}
+
+.modal-title {
+	color: #333;
+	font-weight: 600;
+}
+
+.modal-title i {
+	margin-right: 10px;
+	color: #007bff;
+}
+
+.modal-body {
+	padding: 25px;
+}
+
+.modal-body h5 {
+	color: #007bff;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e9ecef;
+	padding-bottom: 5px;
+}
+
+.modal-body h5 i {
+	margin-right: 8px;
+}
+
+.modal-body img {
+	border: 3px solid #f8f9fa;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Resultados en los modales */
+.resultado-item {
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	background: #f8f9fa;
+	border: 1px solid #e9ecef;
+	transition: all 0.3s ease;
+}
+
+.resultado-item:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.resultado-item h4 {
+	font-size: 1.8em;
+	font-weight: 700;
+	margin: 10px 0 5px 0;
+	color: #333;
+}
+
+.resultado-item p {
+	margin: 0;
+	font-size: 0.9em;
+	color: #666;
+	font-weight: 500;
+}
+
+/* Testimonios en modales */
+.testimonio-modal {
+	border-left: 4px solid #007bff;
+	background: #f8f9fa;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 0 8px 8px 0;
+}
+
+.testimonio-modal p {
+	font-style: italic;
+	font-size: 1.1em;
+	line-height: 1.6;
+	margin-bottom: 15px;
+	color: #555;
+}
+
+.testimonio-modal footer {
+	font-weight: 600;
+	color: #007bff;
+	font-size: 0.95em;
+}
+
+/* Botones de navegación entre modales */
+.modal-footer .btn-primary {
+	background: #007bff;
+	border-color: #007bff;
+}
+
+.modal-footer .btn-primary:hover {
+	background: #0056b3;
+	border-color: #0056b3;
+}
+
+/* Responsive para modales */
+@media (max-width: 768px) {
+	.modal-lg {
+		max-width: 95%;
+		margin: 10px;
+	}
+	
+	.modal-body {
+		padding: 15px;
+	}
+	
+	.resultado-item {
+		margin-bottom: 15px;
+	}
+	
+	.resultado-item h4 {
+		font-size: 1.5em;
+	}
+}
+
 .contact-form .btn i {
     margin-right: 8px;
 }

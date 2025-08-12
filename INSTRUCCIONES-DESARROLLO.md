@@ -9,6 +9,7 @@ El sitio web ha sido completamente transformado de "Foodee" a "Valenzuela Asesor
 - **Botón flotante de WhatsApp** para contacto directo
 - **Formulario de contacto integrado con Formspree** para envío automático de emails
 - **Iconos corregidos y funcionales** en todas las secciones
+- **Modales interactivos para casos de éxito** con navegación entre casos
 
 ## CAMBIOS PRINCIPALES REALIZADOS
 
@@ -33,12 +34,13 @@ El sitio web ha sido completamente transformado de "Foodee" a "Valenzuela Asesor
 ## ARCHIVOS MODIFICADOS
 
 - `index.html` - Contenido principal transformado + funcionalidades agregadas
-- `css/style.css` - Estilos personalizados para overlays y WhatsApp
+- `css/style.css` - Estilos personalizados para overlays, WhatsApp y modales
 - `README.txt` - Documentación actualizada
 - `brand-config.json` - Configuración de marca en JSON
 - `INSTRUCCIONES-DESARROLLO.md` - Este archivo
 - `IMAGENES-GRATUITAS.md` - Guía de imágenes recomendadas
 - `images/IMAGENES-NECESARIAS.md` - Especificaciones de imágenes por sección
+- `MODALES-CASOS-EXITO.md` - Documentación de modales implementados
 
 ## PRÓXIMOS PASOS RECOMENDADOS
 
